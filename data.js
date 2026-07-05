@@ -97,27 +97,11 @@ export const portfolio = [
     status: "live",
   },
   {
-    title: "Tour & Travel",
-    category: "Travel Agency Website",
-    copy: "A destinations-and-packages site built to showcase tours, pricing, and get inquiries moving into a booking conversation.",
-    tags: ["Web Design", "Lead Capture", "Travel & Hospitality"],
-    url: "https://tour-travel-s.vercel.app/",
-    status: "live",
-  },
-  {
     title: "The Kayi Digital",
     category: "Digital Agency Website",
     copy: "A digital-agency storefront built to present services and past work with a bold, modern brand presence.",
     tags: ["Web Design", "Brand Site", "Digital Agency"],
     url: "https://the-kayi-digital.vercel.app/",
-    status: "live",
-  },
-  {
-    title: "Fan-O-Fan",
-    category: "Community & Fan Platform",
-    copy: "A fan-community site built around shared interests, with content and engagement features front and center.",
-    tags: ["Web Design", "Community Platform", "Engagement"],
-    url: "https://fan-o-fan.vercel.app/",
     status: "live",
   },
   // TODO — replace title/copy/tags with the real project details.
