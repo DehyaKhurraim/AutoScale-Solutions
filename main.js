@@ -3,6 +3,7 @@ import { initScrollAnimations } from './scrollAnimations.js';
 import { initTicker } from './ticker.js';
 import { initChatbot } from './chatbot.js';
 import { initClientsMarquee } from './clientsMarquee.js';
+import { initClientReviews } from './clientReviews.js';
 import { initMobileNav } from './nav.js';
 
 function start() {
@@ -10,6 +11,7 @@ function start() {
   initTicker();
   initChatbot();
   initClientsMarquee();
+  initClientReviews();
   initMobileNav();
   loadHeroSceneWhenReady();
 }

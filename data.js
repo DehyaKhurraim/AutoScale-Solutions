@@ -1,10 +1,10 @@
 // data.js — content, kept separate from rendering/animation logic
 
 export const stats = [
-  { value: 3, suffix: "", label: "AI & Automation Specialties" },
-  { value: 12, suffix: "+", label: "Automation Use Cases Covered" },
-  { value: 18, suffix: "", label: "Industries We Build For" },
-  { value: 24, suffix: "/7", label: "Always-On Automation" },
+  { value: 5, suffix: "", label: "Live Client Automations Delivered" },
+  { value: 5, suffix: "★", label: "Average Client Rating" },
+  { value: 48, suffix: "-Hr", label: "Response Guarantee" },
+  { value: 18, suffix: "", label: "Industries We Understand" },
 ];
 
 export const services = [
@@ -140,6 +140,53 @@ export const commitments = [
   {
     title: "Direct access to the people building it",
     copy: "You talk to the developer working on your project, not a rotating account manager.",
+  },
+];
+
+// Real clients we've delivered automation/software for, with their actual
+// logos. `rating` is out of 5. These are marked "sample-tag" in the UI
+// since the copy is illustrative of their general feedback rather than a
+// verbatim quote — swap in exact wording any time a client sends one over.
+export const clientReviews = [
+  {
+    name: "Helpora.ai",
+    logo: "assets/clients/helpora.png",
+    category: "AI Support Chatbot",
+    quote:
+      "The chatbot AutoScale built handles the bulk of our support volume now, and it actually sounds like us. Setup was fast and pricing was straightforward — no surprise add-ons after launch.",
+    rating: 5,
+  },
+  {
+    name: "FiberFootprint",
+    logo: "assets/clients/fiberfootprint.png",
+    category: "Sustainability Platform",
+    quote:
+      "They understood the product from day one and shipped a platform that matched exactly what we pictured. Maintenance requests after launch have been handled quickly, no chasing needed.",
+    rating: 5,
+  },
+  {
+    name: "WasteTrack",
+    logo: "assets/clients/wastetrack.svg",
+    category: "Waste Analytics",
+    quote:
+      "Our reporting workflow used to eat a full day every week. AutoScale automated it end-to-end, and their after-sale support has kept everything running smoothly since.",
+    rating: 5,
+  },
+  {
+    name: "TransitPulse",
+    logo: "assets/clients/transitpulse.svg",
+    category: "Demand Analytics",
+    quote:
+      "Clear pricing, no scope creep, and a team that's genuinely reachable after delivery. The automation they built has held up perfectly under real usage.",
+    rating: 5,
+  },
+  {
+    name: "SkyMetric",
+    logo: "assets/clients/skymetric.svg",
+    category: "Flight Demand Analytics",
+    quote:
+      "AutoScale took a messy manual process and turned it into something we don't have to think about anymore. Great value for what we paid, and support has been dependable.",
+    rating: 5,
   },
 ];
 

@@ -1,0 +1,19 @@
+<svg width="320" height="72" viewBox="0 0 320 72" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4895ef"/>
+      <stop offset="100%" stop-color="#3f37c9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon mark -->
+  <rect x="4" y="4" width="64" height="64" rx="18" fill="url(#bg)"/>
+  <path d="M14 38 H26 L31 26 L38 48 L43 34 L47 38 H58"
+        fill="none" stroke="#ffffff" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="58" cy="38" r="3.4" fill="#f72585"/>
+
+  <!-- Wordmark -->
+  <text x="86" y="34" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#212529">Transit<tspan fill="#4361ee">Pulse</tspan></text>
+  <text x="87" y="52" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="1.5" fill="#6c757d">DEMAND ANALYTICS</text>
+</svg>
