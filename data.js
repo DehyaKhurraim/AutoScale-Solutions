@@ -1,10 +1,14 @@
 // data.js — content, kept separate from rendering/animation logic
 
+// These four are intentionally grounded in numbers that are true and
+// checkable elsewhere on this site — not aspirational marketing percentages
+// we can't back up. Update the `value` here if the underlying fact changes
+// (e.g. clientReviews.length grows, or the reply-time promise changes).
 export const stats = [
-  { value: 5, suffix: "", label: "Live Client Automations Delivered" },
-  { value: 5, suffix: "★", label: "Average Client Rating" },
-  { value: 48, suffix: "-Hr", label: "Response Guarantee" },
-  { value: 18, suffix: "", label: "Industries We Understand" },
+  { value: 5, suffix: "", label: "Real Clients Automated & Live" },
+  { value: 5, suffix: "★", label: "Average Rating Across Every Client" },
+  { value: 48, suffix: "-Hr", label: "Reply Guarantee On Every Project Brief" },
+  { value: 18, suffix: "", label: "Industries We Already Understand" },
 ];
 
 export const services = [
@@ -152,40 +156,35 @@ export const clientReviews = [
     name: "Helpora.ai",
     logo: "assets/clients/helpora.png",
     category: "AI Support Chatbot",
-    quote:
-      "The chatbot AutoScale built handles the bulk of our support volume now, and it actually sounds like us. Setup was fast and pricing was straightforward — no surprise add-ons after launch.",
+    quote: "The chatbot AutoScale built handles the bulk of our support volume now, and it actually sounds like us. Setup was fast and pricing was straightforward — no surprise add-ons after launch.",
     rating: 5,
   },
   {
     name: "FiberFootprint",
     logo: "assets/clients/fiberfootprint.png",
     category: "Sustainability Platform",
-    quote:
-      "They understood the product from day one and shipped a platform that matched exactly what we pictured. Maintenance requests after launch have been handled quickly, no chasing needed.",
+    quote: "They understood the product from day one and shipped a platform that matched exactly what we pictured. Maintenance requests after launch have been handled quickly, no chasing needed.",
     rating: 5,
   },
   {
     name: "WasteTrack",
     logo: "assets/clients/wastetrack.svg",
     category: "Waste Analytics",
-    quote:
-      "Our reporting workflow used to eat a full day every week. AutoScale automated it end-to-end, and their after-sale support has kept everything running smoothly since.",
+    quote: "Our reporting workflow used to eat a full day every week. AutoScale automated it end-to-end, and their after-sale support has kept everything running smoothly since.",
     rating: 5,
   },
   {
     name: "TransitPulse",
     logo: "assets/clients/transitpulse.svg",
     category: "Demand Analytics",
-    quote:
-      "Clear pricing, no scope creep, and a team that's genuinely reachable after delivery. The automation they built has held up perfectly under real usage.",
+    quote: "Clear pricing, no scope creep, and a team that's genuinely reachable after delivery. The automation they built has held up perfectly under real usage.",
     rating: 5,
   },
   {
     name: "SkyMetric",
     logo: "assets/clients/skymetric.svg",
     category: "Flight Demand Analytics",
-    quote:
-      "AutoScale took a messy manual process and turned it into something we don't have to think about anymore. Great value for what we paid, and support has been dependable.",
+    quote: "AutoScale took a messy manual process and turned it into something we don't have to think about anymore. Great value for what we paid, and support has been dependable.",
     rating: 5,
   },
 ];
